@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1.0">
+        <title>ОбедПро — доставка вкусных бизнес-ланчей в офис</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect"
+            href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap">
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/landing.css">
+    </head>
+    <body>
+        <!-- Навигационная панель Bootstrap 5 -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom shadow-sm sticky-top">
+            <div class="container">
+                <a class="navbar-brand fw-bold text-brand" href="index.html">
+                    ОбедПро
+                </a>
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                    aria-controls="mainNavbar" aria-expanded="false"
+                    aria-label="Переключить навигацию">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active"
+                                aria-current="page"
+                                href="index.html">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="lunch.html">Собрать ланч</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="order.html">Оформить заказ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="orders.html">Заказы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="#contacts">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <!-- 1. Hero Section -->
+            <section class="hero-section py-5">
+                <div class="container py-lg-4">
+                    <div class="row align-items-center g-5">
+                        <div class="col-12 col-lg-6">
+                            <span class="badge bg-brand-light text-brand mb-3 px-3 py-2 fw-bold">
+                                Доставка горячих обедов по Москве
+                            </span>
+                            <h1 class="display-5 fw-bold mb-3 hero-title">
+                                Вкусный бизнес-ланч прямо к вашему столу
+                            </h1>
+                            <p class="lead text-muted mb-4">
+                                Сбалансированное питание на каждый день. Более
+                                30 разнообразных блюд, 5 вариантов комбо на
+                                любой аппетит и быстрая доставка к обеденному
+                                перерыву.
+                            </p>
+                            <div class="d-flex flex-wrap gap-3">
+                                <a href="lunch.html"
+                                    class="btn btn-brand btn-lg px-4 py-2">
+                                    Собрать ланч
+                                </a>
+                                <a href="#features"
+                                    class="btn btn-outline-secondary btn-lg px-4 py-2">
+                                    О сервисе
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 text-center">
+                            <div class="hero-image-wrapper">
+                                <img src="images/lunch.jpg"
+                                    class="img-fluid rounded-4 shadow-lg hero-img"
+                                    alt="Аппетитный бизнес-ланч ОбедПро">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 2. Features Section (Преимущества) -->
+            <section class="features-section py-5 bg-light" id="features">
+                <div class="container">
+                    <div class="text-center mb-5">
+                        <h2 class="fw-bold mb-2">Почему выбирают ОбедПро</h2>
+                        <p class="text-muted">
+                            Мы заботимся о качестве каждого блюда и вашем комфорте
+                        </p>
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card h-100 feature-card p-3 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <div class="feature-icon mb-3">⚡</div>
+                                    <h3 class="h5 card-title fw-bold">
+                                        Быстрая доставка
+                                    </h3>
+                                    <p class="card-text text-muted">
+                                        Привезём заказ ко времени перерыва
+                                        или как можно скорее в течение 30-45
+                                        минут горячим и свежим.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card h-100 feature-card p-3 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <div class="feature-icon mb-3">🥗</div>
+                                    <h3 class="h5 card-title fw-bold">
+                                        Свежие продукты
+                                    </h3>
+                                    <p class="card-text text-muted">
+                                        Готовим только из натуральных
+                                        ингредиентов в день доставки без
+                                        заморозки и консервантов.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card h-100 feature-card p-3 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <div class="feature-icon mb-3">🍱</div>
+                                    <h3 class="h5 card-title fw-bold">
+                                        5 вариантов комбо
+                                    </h3>
+                                    <p class="card-text text-muted">
+                                        Подберите удобный формат: от сытного
+                                        комплекса из 4 блюд до легкого
+                                        перекуса с напитком и десертом.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card h-100 feature-card p-3 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <div class="feature-icon mb-3">🌿</div>
+                                    <h3 class="h5 card-title fw-bold">
+                                        Вегетарианское меню
+                                    </h3>
+                                    <p class="card-text text-muted">
+                                        Богатый выбор полезных супов,
+                                        салатов и горячих блюд без мяса
+                                        и рыбы для ценителей растительной кухни.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card h-100 feature-card p-3 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <div class="feature-icon mb-3">♻️</div>
+                                    <h3 class="h5 card-title fw-bold">
+                                        Эко-упаковка
+                                    </h3>
+                                    <p class="card-text text-muted">
+                                        Используем безопасные биоразлагаемые
+                                        контейнеры, которые берегут природу
+                                        и сохраняют температуру обеда.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card h-100 feature-card p-3 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <div class="feature-icon mb-3">💳</div>
+                                    <h3 class="h5 card-title fw-bold">
+                                        Удобная оплата
+                                    </h3>
+                                    <p class="card-text text-muted">
+                                        Оплата картой онлайн или наличными
+                                        курьеру. Также работаем с
+                                        корпоративными клиентами по безналичному
+                                        счёту.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 3. Call to Action (CTA) Section -->
+            <section class="cta-section py-5">
+                <div class="container">
+                    <div class="cta-banner rounded-4 p-5 text-center text-white shadow">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-8">
+                                <h2 class="display-6 fw-bold mb-3">
+                                    Проголодались? Пора вкусно пообедать!
+                                </h2>
+                                <p class="lead mb-4 text-white-75">
+                                    Соберите свой персональный ланч из любимых
+                                    блюд за пару кликов. Мы уже разогреваем плиты!
+                                </p>
+                                <a href="lunch.html"
+                                    class="btn btn-light btn-lg px-5 py-3 fw-bold text-brand shadow-sm">
+                                    Перейти к сборке ланча
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 4. Feedback Form and Contacts Section -->
+            <section class="contacts-section py-5 bg-light" id="contacts">
+                <div class="container">
+                    <div class="text-center mb-5">
+                        <h2 class="fw-bold mb-2">Свяжитесь с нами</h2>
+                        <p class="text-muted">
+                            Остались вопросы или хотите оформить корпоративный
+                            заказ? Напишите нам!
+                        </p>
+                    </div>
+                    <div class="row g-5">
+                        <!-- Форма обратной связи -->
+                        <div class="col-12 col-lg-6">
+                            <div class="card border-0 shadow-sm p-4 rounded-4">
+                                <div class="card-body">
+                                    <h3 class="h4 card-title fw-bold mb-3">
+                                        Обратная связь
+                                    </h3>
+                                    <div class="alert alert-success d-none"
+                                        id="feedback-success" role="alert">
+                                        Спасибо! Ваше сообщение успешно
+                                        отправлено. Мы свяжемся с вами в
+                                        ближайшее время.
+                                    </div>
+                                    <form id="feedback-form">
+                                        <div class="mb-3">
+                                            <label for="fb-name"
+                                                class="form-label">
+                                                Ваше имя
+                                            </label>
+                                            <input type="text"
+                                                class="form-control"
+                                                id="fb-name" name="name"
+                                                placeholder="Иван Иванов"
+                                                required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="fb-email"
+                                                class="form-label">
+                                                Электронная почта
+                                            </label>
+                                            <input type="email"
+                                                class="form-control"
+                                                id="fb-email" name="email"
+                                                placeholder="name@example.com"
+                                                required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="fb-topic"
+                                                class="form-label">
+                                                Тема обращения
+                                            </label>
+                                            <select class="form-select"
+                                                id="fb-topic" name="topic">
+                                                <option value="order">
+                                                    Вопрос по заказу
+                                                </option>
+                                                <option value="corporate">
+                                                    Корпоративное питание
+                                                </option>
+                                                <option value="feedback">
+                                                    Отзыв о качестве
+                                                </option>
+                                                <option value="other">
+                                                    Другое
+                                                </option>
+                                            </select>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="fb-message"
+                                                class="form-label">
+                                                Сообщение
+                                            </label>
+                                            <textarea class="form-control"
+                                                id="fb-message" name="message"
+                                                rows="4"
+                                                placeholder="Напишите ваше сообщение..."
+                                                required></textarea>
+                                        </div>
+                                        <button type="submit"
+                                            class="btn btn-brand w-100 py-2">
+                                            Отправить сообщение
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Контактная информация -->
+                        <div class="col-12 col-lg-6">
+                            <div class="card border-0 shadow-sm p-4 rounded-4 h-100">
+                                <div class="card-body">
+                                    <h3 class="h4 card-title fw-bold mb-4">
+                                        Контакты и доставка
+                                    </h3>
+                                    <ul class="list-unstyled contact-info-list mb-4">
+                                        <li class="mb-3">
+                                            <span class="contact-icon">📍</span>
+                                            <div>
+                                                <strong>Адрес кухни:</strong>
+                                                <p class="text-muted mb-0">
+                                                    Москва, ул. Примерная, д. 1
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="mb-3">
+                                            <span class="contact-icon">📞</span>
+                                            <div>
+                                                <strong>Телефон:</strong>
+                                                <p class="mb-0">
+                                                    <a href="tel:+74951234567"
+                                                        class="text-decoration-none text-dark">
+                                                        +7 (495) 123-45-67
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="mb-3">
+                                            <span class="contact-icon">✉️</span>
+                                            <div>
+                                                <strong>Электронная почта:</strong>
+                                                <p class="mb-0">
+                                                    <a href="mailto:info@obedpro.ru"
+                                                        class="text-decoration-none text-dark">
+                                                        info@obedpro.ru
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="mb-3">
+                                            <span class="contact-icon">⏰</span>
+                                            <div>
+                                                <strong>Режим работы:</strong>
+                                                <p class="text-muted mb-0">
+                                                    По будням с 11:00 до 15:00
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <h4 class="h6 fw-bold mb-2">
+                                        Зоны доставки по округам Москвы:
+                                    </h4>
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <span class="badge bg-secondary">ЦАО</span>
+                                        <span class="badge bg-secondary">САО</span>
+                                        <span class="badge bg-secondary">СВАО</span>
+                                        <span class="badge bg-secondary">ВАО</span>
+                                        <span class="badge bg-secondary">ЮВАО</span>
+                                        <span class="badge bg-secondary">ЮАО</span>
+                                        <span class="badge bg-secondary">ЮЗАО</span>
+                                        <span class="badge bg-secondary">ЗАО</span>
+                                        <span class="badge bg-secondary">СЗАО</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Подвал сайта -->
+        <footer class="bg-dark text-white py-4 mt-auto">
+            <div class="container text-center">
+                <p class="mb-1">
+                    ОбедПро — сервис быстрой доставки бизнес-ланчей в Москве.
+                </p>
+                <p class="text-white-50 mb-0">
+                    Галушкин Тимофей, группа 251-354, 2026
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/landing.js"></script>
+    </body>
+</html>\n
